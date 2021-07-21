@@ -15,29 +15,27 @@ cam.py is based on: [ScoreCAM](https://github.com/yiskw713/ScoreCAM)
 
 ## Download resources and set paths
 
-1. Imagenet 2012 
+1. Imagenet 2012 images 
+ - requires login 
+ - (link)[https://image-net.org/download.php]
 
-
-2. Imagenet bboxes
+2. Imagenet 2012 bounding boxes
+- (link)[https://image-net.org/download-bboxes.php] 
 
 3. Imagenet to wordnet mapping
   -  from (github repo)[https://gist.github.com/symanteve/]  download [imagenet_label_to_wordnet_synset.txt](https://gist.githubusercontent.com/symanteve/a14778f7023dda425e93892217135679/raw/9fa8342b7366596519dfdf53f4db39479eb82de8/imagenet_label_to_wordnet_synset.txt)
 
-Download ImageNet files: images and bboxes
-
-Set paths for images, bboxes and wordnet maping:
-PATH_LABEL_TO_WORDNET = '/home/projects/RobutnessScore/imagenet_label_to_wordnet_synset.txt'
-PATH_IMAGENET_CLASS = '/home/datasets/imagenet_2012/val/{}/'
-PATH_IMAGENET_BBOX = '/home/datasets/imagenet_2012/val/xml/'
+4. Set paths for downloaded images, bboxes and wordnet maping in [ImageNet.py](ImageNet.py), i.e.:
+  - PATH_LABEL_TO_WORDNET = './imagenet_label_to_wordnet_synset.txt'
+  - PATH_IMAGENET_CLASS = './imagenet_2012/val/{}/'
+  - PATH_IMAGENET_BBOX = './imagenet_2012/val/xml/'
 
 
-## Getting started
+## Dependencies
 
-Let's start by installing all dependencies. 
+Install all dependencies. 
 
 `pip install -r requirements.txt`
-
-
 
 
 ## Runing
