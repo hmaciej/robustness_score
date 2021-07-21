@@ -17,13 +17,13 @@ cam.py is based on: [ScoreCAM](https://github.com/yiskw713/ScoreCAM)
 
 1. Imagenet 2012 images 
  - requires login 
- - (link)[https://image-net.org/download.php]
+ - [link](https://image-net.org/download.php)
 
 2. Imagenet 2012 bounding boxes
-- (link)[https://image-net.org/download-bboxes.php] 
+- [link](https://image-net.org/download-bboxes.php) 
 
 3. Imagenet to wordnet mapping
-  -  from (github repo)[https://gist.github.com/symanteve/]  download [imagenet_label_to_wordnet_synset.txt](https://gist.githubusercontent.com/symanteve/a14778f7023dda425e93892217135679/raw/9fa8342b7366596519dfdf53f4db39479eb82de8/imagenet_label_to_wordnet_synset.txt)
+  -  from [github repo](https://gist.github.com/symanteve/)  download [imagenet_label_to_wordnet_synset.txt](https://gist.githubusercontent.com/symanteve/a14778f7023dda425e93892217135679/raw/9fa8342b7366596519dfdf53f4db39479eb82de8/imagenet_label_to_wordnet_synset.txt)
 
 4. Set paths for downloaded images, bboxes and wordnet maping in [ImageNet.py](ImageNet.py), i.e.:
   - PATH_LABEL_TO_WORDNET = './imagenet_label_to_wordnet_synset.txt'
