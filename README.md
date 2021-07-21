@@ -9,22 +9,28 @@ Code for our ECML 2021 paper on checking Robustness of DNN. Recent works have sh
 
 
 
+## Info
+
+cam.py is based on: [ScoreCAM](https://github.com/yiskw713/ScoreCAM)
+
+## Downloading ImageNet
+
+Download ImageNet files: images and bboxes
+
 
 ## Getting started
 
 Let's start by installing all dependencies. 
 
-`pip install -r requirement.txt`
+`pip install -r requirements.txt`
 
 
+## Seting paths
 
-- cam.py is based on: https://github.com/yiskw713/ScoreCAM
 
-ImageNet
-    1. Download ImageNet files: images and bboxes
-    2. Install with pip: torch, efficientnet_pytorch, numpy, sklearn, etc.
-    3. Set PATHS
-    4. Run ImageNet.py
+## Runing
+
+`python ImageNet.py`
 
 ## Reference
 
